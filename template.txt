@@ -1,0 +1,8 @@
+task name / project name
+
+proget goal / info
+
+## steps
+
+*** answear
+
