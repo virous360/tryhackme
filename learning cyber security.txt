@@ -1,4 +1,8 @@
-Task 1 Web Application Security 
+Learning Cyber Security
+
+
+Click the green "View Site" button above and learn how to hack BookFace, TryHackMe's vulnerable social media site.
+***No answer needed
 
 What is the username of the BookFace account you will be taking over?
 ***Ben.Spring
@@ -6,5 +10,11 @@ What is the username of the BookFace account you will be taking over?
 Hack the BookFace account to reveal this task's answer!
 ***THM{BRUTEFORCING}
 
+Click the green "View Site" button above and see how Target was hacked on the right hand side.
+***No answer needed
+
 How much did the data breach cost Target?
-$300 million
+***$300 million
+
+Read the above
+***No answer needed
