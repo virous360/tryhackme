@@ -1,0 +1,44 @@
+Web fundamentals
+
+
+Read and understand the information
+***No answer needed
+
+What request verb is used to retrieve page content?
+***GET
+
+What port do web servers normally listen on?
+***80
+
+What's responsible for making websites look fancy?
+***CSS
+
+What verb would be used for a login?
+***POST
+
+What verb would be used to see your bank balance once you're logged in?
+***GET
+
+Does the body of a GET request matter? Yea/Nay
+***Nay
+
+What's the status code for "I'm a teapot"?
+***418
+
+What status code will you get if you need to authenticate to access some content, and you're unauthenticated?
+***401
+
+Read and try and understand this information. Check out the link for extra information
+***No answer needed
+
+What's the GET flag?
+***thm{162520bec925bd7979e9ae65a725f99f}
+
+What's the POST flag?
+***thm{3517c902e22def9c6e09b99a9040ba09}
+
+What's the "Get a cookie" flag?
+***thm{91b1ac2606f36b935f465558213d7ebd}
+
+What's the "Set a cookie" flag?
+***thm{c10b5cb7546f359d19c747db2d0f47b3}
