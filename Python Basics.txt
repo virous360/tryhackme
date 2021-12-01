@@ -1,0 +1,57 @@
+Python basics
+
+
+Run what's currently in the code editor by clicking the green "Run Code" button (on the right-hand side of your screen), and move onto the next task.
+***No answer needed
+
+On the code editor, print "Hello World". What is the flag?
+***THM{PRINT_STATEMENTS}
+
+In the code editor, print the result of 21 + 43. What is the flag?
+***THM{ADDITI0N}
+
+Print the result of 142 - 52. What is the flag?
+***THM{SUBTRCT}
+
+Print the result of 10 * 342. What is the flag?
+***THM{MULTIPLICATION_PYTHON}
+
+Print the result of 5 squared. What is the flag?
+***THM{EXP0N3NT_POWER}
+
+In the code editor, create a variable called height and set its initial value to 200.
+***No answer needed
+
+On a new line, add 50 to the height variable.
+***No answer needed
+
+On another new line, print out the value of height. What is the flag that appears?
+***THM{VARIABL3S}
+
+Read the above section.
+***No answer needed
+
+In this exercise, we will code a small application that calculates and outputs the shipping cost for a customer based on how much they've spent.
+In the code editor, click on the "shipping.py" tab and follow the instructions to complete this task.
+***No answer needed
+
+Once you've written the application in the code editor's shipping.py tab, a flag will appear, which is the answer to this question.
+***THM{IF_STATEMENT_SHOPPING}
+
+In shipping.py, on line 12 (when using the Code Editor's Hint), change the customer_basket_cost variable to 101 and re-run your code. You will get a flag (if the total cost is correct based on your code); the flag is the answer to this question.
+***THM{MY_FIRST_APP}
+
+On the code editor, click back on the "script.py" tab and code a loop that outputs every number from 0 to 50.
+***THM{L00PS_WHILE_FOR}
+
+[...]create an if statement to determine if the value falls below $30,000; if it does, output a message to alert you (via a print statement).
+***THM{BITC0IN_INVESTOR}
+
+1 Bitcoin is now worth $25,000. In the code editor on line 14, update the bitcoin_to_usd variable value to 25000 and see if your Python program recognises that your investment is below the $30,000 threshold.
+***No answer needed
+
+In the code editor, write Python code to read the flag.txt file. What is the flag in this file?
+***THM{F1LE_R3AD}
+
+Read the task and run the Python example code above in the code editor on the right.
+***No answer needed
