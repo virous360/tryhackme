@@ -1,1 +1,405 @@
 CC: Pen Testing
+
+Read the above.
+***No answer needed
+
+What does nmap stand for?
+***Network Mapper
+
+How do you specify which port(s) to scan?
+***-p
+
+How do you do a "ping scan"(just tests if the host(s) is up)?
+***-sn
+
+What is the flag for a UDP scan? 
+***-sU
+
+How do you run default scripts?
+***-sC
+
+How do you enable "aggressive mode"(Enables OS detection, version detection, script scanning, and traceroute)
+***-A
+
+What flag enables OS detection
+***-O
+
+How do you get the versions of services running on the target machine    
+***-sV
+
+Deploy the machine
+***No answer needed
+
+How many ports are open on the machine?    
+***1
+
+What service is running on the machine?           
+***Apache
+
+What is the version of the service?
+***2.4.18
+
+What is the output of the http-title script(included in default scripts)
+***Apache2 Ubuntu Default Page: It Works
+
+How do you listen for connections?
+***-l
+
+How do you enable verbose mode(allows you to see who connected to you)?
+***-v
+
+How do you specify a port to listen on
+***-p
+
+How do you specify which program to execute after you connect to a host(One of the most infamous)?
+***-e
+
+How do you connect to udp ports
+***-u
+
+How do you specify directory/file brute forcing mode?
+***dir
+
+How do you specify dns bruteforcing mode?    
+***dns
+
+What flag sets extensions to be used? Example: if the php extension is set, and the word is "admin" then gobuster will test admin.php against the webserver
+***-x
+
+What flag sets a wordlist to be used?
+***-w
+
+How do you set the Username for basic authentication(If the directory requires a username/password)?
+***-U
+
+How do you set the password for basic authentication?
+***-P
+
+How do you set which status codes gobuster will interpret as valid?
+Example: 200,400,404,204
+***-s
+
+How do you skip ssl certificate verification?
+***-k
+
+How do you specify a User-Agent?
+***-a
+
+How do you specify a HTTP header?
+***-H
+
+What flag sets the URL to bruteforce?
+***-u
+
+Deploy the machine
+***No answer needed
+
+What is the name of the hidden directory
+***secret
+
+What is the name of the hidden file with the extension xxa
+***password
+
+How do you specify which host to use?   
+***-h
+
+What flag disables ssl?
+***-nossl
+
+How do you force ssl?
+***-ssl
+
+How do you specify authentication(username + pass)?
+***-id
+
+How do you select which plugin to use?
+***-plugins
+
+Which plugin checks if you can enumerate apache users?    
+***apacheusers
+
+How do you update the plugin list    
+***-update
+
+How do you list all possible plugins to use
+***--list-plugins
+
+!TASK 6
+***No Answer needed
+
+What command allows you to search modules?
+***search
+
+How do you select a module?    
+***use
+
+How do you display information about a specific module?
+***info
+
+How do you list options that you can set?
+***options
+
+What command lets you view advanced options for a specific module?    
+***advanced
+
+How do you show options in a specific category
+***show
+
+How do you select the eternalblue module?
+***use exploit/windows/smb/ms17_010_eternalblue
+
+What option allows you to select the target host(s)?
+***RHOSTS
+
+How do you set the target port?
+***RPORT
+
+What command allows you to set options?
+***set
+
+How would you set SMBPass to "username"?
+***set SMBPass username
+
+How would you set the SMBUser to "password"?
+***set SMBUser password
+
+What option sets the architecture to be exploited?
+***arch
+
+What option sets the payload to be sent to the target machine?
+***payload
+
+Once you've finished setting all the required options, how do you run the exploit?
+***exploit
+
+What flag do you set if you want the exploit to run in the background?
+***-j
+
+How do you list all current sessions?
+***sessions
+
+What flag allows you to go into interactive mode with a session("drops you either into a meterpreter or regular shell")
+***-i
+
+What command allows you to download files from the machine?
+***download
+
+What command allows you to upload files to the machine?
+***upload
+
+How do you list all running processes?
+***ps
+
+How do you change processes on the victim host(Ideally it will allow you to change users and gain the perms associated with that user)
+***migrate
+
+What command lists files in the current directory on the remote machine?
+***ls
+
+How do you execute a command on the remote host?
+***execute
+
+What command starts an interactive shell on the remote host?
+***shell
+
+How do you find files on the target host(Similar function to the linux command "find")
+***search
+
+How do you get the output of a file on the remote host?
+***cat
+
+How do you put a meterpreter shell into "background mode"(allows you to run other msf modules while also keeping the meterpreter shell as a session)?
+***background
+
+Select the module that needs to be exploited
+use exploit/multi/http/nostromo_code_exec
+What variable do you need to set, to select the remote host
+***rhosts
+
+How do you set the port to 80
+***set rport 80
+
+How do you set listening address(Your machine)
+***lhost
+
+Exploit the machine!
+***No answer needed
+
+What is the name of the secret directory in the /var/nostromo/htdocs directory?
+***s3cretd1r
+
+What are the contents of the file inside of the directory?
+***Woohoo!
+
+!TASK 11
+***No Answer needed
+
+!TASK 12
+***No Answer needed
+
+What flag sets the mode.
+***-m
+
+What flag sets the "attack mode"
+***-a
+
+What is the attack mode number for Brute-force    
+***3
+
+What is the mode number for SHA3-512    
+***17600
+
+Crack This Hash:56ab24c15b72a457069c5ea42fcfc640
+Type: MD5
+***happy
+
+Crack this hash:
+4bc9ae2b9236c2ad02d81491dcb51d5f
+Type: MD4
+***nootnoot
+
+What flag let's you specify which wordlist to use? 
+***--wordlist
+
+What flag lets you specify which hash format(Ex: MD5,SHA1 etc.) to use?    
+***--format
+
+How do you specify which rule to use?
+***--rules
+
+Crack this hash:
+5d41402abc4b2a76b9719d911017c592
+Type: MD5
+***hello
+
+Crack this hash:
+5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+Type: SHA1
+***password
+
+!TASK 15
+***No Answer needed
+
+How do you specify which url to check?
+***-u
+
+What about which google dork to use?
+***-g
+
+How do you select(lol) which parameter to use?(Example: in the url http://ex.com?test=1 the parameter would be test.)
+***-p
+
+What flag sets which database is in the target host's backend?(Example: If the flag is set to mysql then sqlmap will only test mysql injections).
+***--dbms
+
+How do you select the level of depth sqlmap should use(Higher = more accurate and more tests in general).
+***--level
+
+How do you dump the table entries of the database?
+***--dump
+
+Which flag sets which db to enumerate?
+(Case sensitive)
+***-D
+
+Which flag sets which table to enumerate?
+(Case sensitive)
+***-T
+
+Which flag sets which column to enumerate?
+(Case sensitive)
+***-C
+
+How do you ask sqlmap to try to get an interactive os-shell?
+***--os-shell
+
+What flag dumps all data from every table
+***--dump-all
+
+!TASK 17
+***No Answer needed
+
+Set the url to the machine ip, and run the command
+***No answer needed
+
+How many types of sqli is the site vulnerable to?
+***3
+
+Dump the database.
+***No answer needed
+
+What is the name of the database?    
+***tests
+
+How many tables are in the database?
+***2
+
+What is the value of the flag?
+***found_me
+
+!TASK 19
+***No Answer needed
+
+How do you set the username to authenticate with?
+***-u
+
+What about the password?    
+***-p
+
+How do you set the host?
+***-H
+
+What flag runs a command on the server(assuming you have permissions that is)?
+***-x 
+
+How do you specify the share to enumerate?
+***-s
+
+How do you set which domain to enumerate?
+***-d
+
+What flag downloads a file?
+***--download
+
+What about uploading one?
+***--upload
+
+Given the username "admin", the password "password", and the ip "10.10.10.10", how would you run ipconfig on that machine
+***smbmap -u "admin" -p "password" -H 10.10.10.10 -x "ipconfig"
+
+How do you specify which domain(workgroup) to use when connecting to the host?
+***-w
+
+How do you specify the ip address of the host?
+***-I
+
+How do you run the command "ipconfig" on the target machine?
+***-c "ipconfig"
+
+How do you specify the username to authenticate with?
+***-U
+
+How do you specify the password to authenticate with?
+***-P
+
+What flag is set to tell smbclient to not use a password?
+***-N
+
+While in the interactive prompt, how would you download the file test, assuming it was in the current directory?
+***get test
+
+In the interactive prompt, how would you upload your /etc/hosts file
+***put /etc/hosts
+
+!TASK 22
+***No Answer needed
+
+!TASK 23
+***No Answer needed
+
+
+What is the user.txt
+***supernootnoot
+
+What is the root.txt
+***congratulations!!!!
