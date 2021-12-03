@@ -1,0 +1,26 @@
+Introduction to Django
+
+
+Read the above
+No answer needed
+
+How would we create an app called Forms? 
+python3 manage.py startapp Forms
+
+How would we run our project to a local network?
+python3 manage.py runserver 0.0.0.0:8000
+
+Read the above
+No answer needed
+
+Flag from GitHub page
+THM{g1t_djang0_hUb}
+
+Admin panel flag?
+THM{DjanGO_Adm1n}
+
+User flag?
+THM{SSH_gUy_101}
+
+Hidden flag?
+THM{django_w1zzard}
